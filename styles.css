@@ -1,6 +1,17 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* border: 1px solid red; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .ecovibe-logo svg {
