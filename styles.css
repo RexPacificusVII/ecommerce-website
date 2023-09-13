@@ -51,11 +51,16 @@ nav .bx {
     border-bottom-right-radius: 50px;
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
 .login-icon, .cart-icon {
     border: 1px solid transparent;
     border-radius: 50%;
+}
+
+.login-form input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.form-check-input:checked {
+    background-color: #157347;
 }
