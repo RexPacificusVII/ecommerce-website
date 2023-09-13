@@ -23,9 +23,29 @@ nav .bx {
     width: 170px;
 }
 
+.form-check-input:checked {
+    background-color: #157347;
+}
+
+.form-control:focus {
+    border-color: #4caf50;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-select:focus {
+    border-color: #4caf50;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-check-input:focus {
+    border-color: #4caf50;
+    outline: 0;
+    box-shadow: none;
+}
+
 #search-bar {
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     outline: none;
@@ -47,20 +67,11 @@ nav .bx {
 #search-icon {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
 }
 
 .login-icon, .cart-icon {
     border: 1px solid transparent;
-    border-radius: 50%;
 }
 
-.login-form input:focus {
-    outline: none;
-    box-shadow: none;
-}
 
-.form-check-input:checked {
-    background-color: #157347;
-}
+
