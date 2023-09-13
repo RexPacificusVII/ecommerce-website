@@ -73,5 +73,16 @@ nav .bx {
     border: 1px solid transparent;
 }
 
+.second-navbar {
+    background-color: #157347;
+    color: #ffffff;
+}
 
+.second-navbar div {
+    white-space: nowrap;
+    font-size: 0.8rem;
+}
 
+.second-navbar a:hover {
+    text-decoration: underline;
+}
