@@ -14,6 +14,10 @@ a {
     color: inherit;
 }
 
+
+/* MAIN NAVBAR */
+
+
 nav .bx {
     font-size: 1.5rem;
 }
@@ -73,6 +77,10 @@ nav .bx {
     border: 1px solid transparent;
 }
 
+
+/* SECOND NAVBAR LINE */
+
+
 .second-navbar {
     background-color: #157347;
     color: #ffffff;
@@ -85,4 +93,24 @@ nav .bx {
 
 .second-navbar a:hover {
     text-decoration: underline;
+}
+
+
+/* MAIN CONTENT */
+
+
+    /* CAROUSEL BANNER */
+
+
+.custom-caption {
+    text-align: left;
+    text-shadow: 2px 2px 4px #000000;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-75%);
+    left: 10%;
+}
+
+.custom-caption p {
+    font-size: 1.25rem;
 }
