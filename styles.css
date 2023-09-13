@@ -28,23 +28,23 @@ nav .bx {
 }
 
 .form-check-input:checked {
-    background-color: #157347;
+    background-color: #198754;
 }
 
 .form-control:focus {
-    border-color: #4caf50;
+    border-color: #75b798;
     outline: 0;
     box-shadow: none;
 }
 
 .form-select:focus {
-    border-color: #4caf50;
+    border-color: #75b798;
     outline: 0;
     box-shadow: none;
 }
 
 .form-check-input:focus {
-    border-color: #4caf50;
+    border-color: #75b798;
     outline: 0;
     box-shadow: none;
 }
@@ -73,6 +73,10 @@ nav .bx {
     border-bottom-left-radius: 0px;
 }
 
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: #198754;
+}
+
 .login-icon, .cart-icon {
     border: 1px solid transparent;
 }
@@ -82,7 +86,7 @@ nav .bx {
 
 
 .second-navbar {
-    background-color: #157347;
+    background-color: #198754;
     color: #ffffff;
 }
 
