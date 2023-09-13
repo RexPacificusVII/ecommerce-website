@@ -107,7 +107,7 @@ nav .bx {
     text-shadow: 2px 2px 4px #000000;
     position: absolute;
     top: 50%;
-    transform: translateY(-90%);
+    transform: translateY(-100%);
     left: 9%;
 }
 
