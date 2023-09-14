@@ -131,7 +131,7 @@ footer li {
     font-size: 0.8rem;
 }
 
-footer li:hover {
+footer a:hover {
     color: #198754;
 }
 
@@ -165,4 +165,12 @@ footer .bx:hover {
 .footer-ecovibe-logo svg {
     height: 80px;
     width: 272px;
+}
+
+
+/* SECOND FOOTER */
+
+
+.second-footer {
+    font-size: 0.8rem;
 }
