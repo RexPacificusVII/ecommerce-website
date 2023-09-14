@@ -144,6 +144,10 @@ footer .bx {
     color: #198754;
 }
 
+footer .bx:hover {
+    color: #75b798;
+}
+
 .list-group-item {
     border: none;
     background-color: transparent;
