@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -132,16 +132,30 @@ footer li {
 }
 
 footer li:hover {
-    text-decoration: underline;
+    color: #198754;
 }
 
 footer p {
     font-size: 0.9rem;
 }
 
+footer .bx {
+    font-size: 3rem;
+    color: #198754;
+}
+
 .list-group-item {
     border: none;
     background-color: transparent;
+}
+
+.svg-cards img {
+    width: 62px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px #198754;
+    
 }
 
 .footer-ecovibe-logo svg {
