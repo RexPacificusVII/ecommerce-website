@@ -139,9 +139,30 @@ nav .bx {
     cursor: pointer;
 }
 
+.featured-product-text {
+    text-shadow: 1px 1px 4px #000000;
+}
+
 #featured-product-1 {
-    background-color: #004b03;
     background-image: url(./assets/energy-bliss.svg);
+    background-repeat: no-repeat;
+    border-radius: 6px;
+}
+
+#featured-product-2 {
+    background-image: url(./assets/eco-chic-living.svg);
+    background-repeat: no-repeat;
+    border-radius: 6px;
+}
+
+#featured-product-3 {
+    background-image: url(./assets/water-serenity.svg);
+    background-repeat: no-repeat;
+    border-radius: 6px;
+}
+
+#featured-product-4 {
+    background-image: url(./assets/pure-comfort.svg);
     background-repeat: no-repeat;
     border-radius: 6px;
 }
