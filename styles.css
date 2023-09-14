@@ -115,7 +115,25 @@ nav .bx {
 }
 
 
+    /* WELCOME */
+
+
+.welcome-card {
+    border-radius: 0;
+}
+
+.welcome-card img {
+    border-radius: 0;
+    opacity: 0.75;
+}
+
+.welcome-card h1, .welcome-card p {
+    /* color: #004b03; */
+    text-shadow: 1px 1px 4px #ffffff;
+}
+
 /* FOOTER */
+
 
 footer h5 {
     font-size: 1rem;
