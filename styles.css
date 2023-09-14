@@ -117,6 +117,33 @@ nav .bx {
 
 /* FOOTER */
 
+footer h5 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+footer h6 {
+    font-size: 0.8rem;
+    font-weight: bold
+}
+
+footer li {
+    font-size: 0.8rem;
+}
+
+footer li:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+.list-group-item {
+    border: none;
+    background-color: transparent;
+}
+
 .footer-ecovibe-logo svg {
     height: 80px;
     width: 272px;
