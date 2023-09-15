@@ -163,28 +163,16 @@ nav .bx {
     color: #198754;
 }
 
-.form-select option:hover {
-    background-color: #198754;
-}
-
-.form-select option:active {
-    background-color: #198754;
-}
-
-#contactform-subject option:focus {
-    background-color: #198754;
-}
-
 
     /* FEATURED PRODUCTS */
 
 
-#featured-products .card:hover {
+#featured-products .card:hover, .product-card .card:hover {
     cursor: pointer;
     box-shadow: 1px 1px 5px #75b798;
 }
 
-#featured-products .bx {
+#featured-products .bx, .product-card .bx{
     color: #198754;
 }
 

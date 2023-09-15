@@ -100,7 +100,7 @@
                     </form>
                     <ul class="navbar-nav ms-auto me-auto px-1">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -119,7 +119,7 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Shop
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end">
@@ -166,7 +166,32 @@
                             <a class="dropdown-item" href="#">Forgot password?</a>
                         </div>
                     </div>
-                    <button type="button" class="btn btn-outline-success cart-icon"><i class='bx bxs-cart' ></i></button>
+                    <button type="button" class="btn btn-outline-success cart-icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-saved-cart" aria-controls="offcanvas-saved-cart"><i class='bx bxs-cart' ></i></button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- OFFCANVAS CART -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-saved-cart" aria-labelledby="offcanvas-saved-cartLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvas-saved-cartLabel">Saved cart</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                No items yet.
+            </div>
+        </div>
+
+        <!-- SECOND NAVBAR LINE -->
+        <nav class="container-fluid text-center my-1 bg-success text-white second-navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-6 col-6 py-1"><a class="nav-link" href="#">Welcome Gift Discount</a></div>
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-6 col-6 py-1"><a class="nav-link" href="#">30 Days Free Return</a></div>
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-6 col-6 py-1"><a class="nav-link" href="#">Free Shipping Available</a></div>
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-6 col-6 py-1"><a class="nav-link" href="#">0% Interest Installment</a></div>
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-6 col-6 py-1"><a class="nav-link" href="#">EcoVibe Rewards</a></div>
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-6 col-6 py-1"><a class="nav-link" href="#">Limited-Time Offers</a></div>
                 </div>
             </div>
         </nav>
@@ -175,7 +200,199 @@
         <!-- MAIN -->
         <main class="bg-body-tertiary">
 
-            <div class="container">1</div>
+            <div class="container bg-success bg-opacity-10 rounded-2 pt-4 pb-2">
+
+                <div class="row mb-3">
+                    <div class="col-12 row mx-auto">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 py-2 product-card">
+                            <div class="card w-100">
+                                <img src="./assets/products/philips-led.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title my-auto text-truncate"><small>LED Bulb (Dimmable) 046677581190</small></h5>
+                                    <p class="card-text my-1 text-truncate"><small>Philips</small></p>
+                                    <p class="card-text my-auto"><small><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half' ></i> (28)</small></p>
+                                    <p class="card-text my-0"><small>&#8369; 792.99</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 py-2 product-card">
+                            <div class="card w-100">
+                                <img src="./assets/products/whirlpool-refrigerator.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title my-auto text-truncate"><small>WRF757SDHZ 26.8 Cu. Ft. French Door Refrigerator</small></h5>
+                                    <p class="card-text my-1 text-truncate"><small>Whirlpool</small></p>
+                                    <p class="card-text my-auto"><small><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half' ></i> (8)</small></p>
+                                    <p class="card-text my-0"><small>&#8369; 163,343.99</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 py-2 product-card">
+                            <div class="card w-100">
+                                <img src="./assets/products/canadiansolar-topbihiku7.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title my-auto text-truncate"><small>TOPBiHiKu7</small></h5>
+                                    <p class="card-text my-1 text-truncate"><small>CanadianSolar</small></p>
+                                    <p class="card-text my-auto"><small><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i> (42)</small></p>
+                                    <p class="card-text my-0"><small>&#8369; 12.99</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 py-2 product-card">
+                            <div class="card w-100">
+                                <img src="./assets/products/sunpower-sunvault.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title my-auto text-truncate"><small>SunVault Storage</small></h5>
+                                    <p class="card-text my-1 text-truncate"><small>SunPower</small></p>
+                                    <p class="card-text my-auto"><small><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i> (6)</small></p>
+                                    <p class="card-text my-0"><small>&#8369; 680,599.99</small></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 py-2 product-card">
+                            <div class="card w-100">
+                                <img src="./assets/products/teragren-xcora-tundra.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title my-auto text-truncate"><small>Xcora Tundra Engineered Strand Bamboo</small></h5>
+                                    <p class="card-text my-1 text-truncate"><small>Teragren</small></p>
+                                    <p class="card-text my-auto"><small><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half' ></i> (138)</small></p>
+                                    <p class="card-text my-0"><small>&#8369; 226.99</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 py-2 product-card">
+                            <div class="card w-100">
+                                <img src="./assets/products/kayulama-mozaic-tv-cabinet.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title my-auto text-truncate"><small>Mozaic TV Cabinet 2 Doors</small></h5>
+                                    <p class="card-text my-1 text-truncate"><small>Kayulama</small></p>
+                                    <p class="card-text my-auto"><small><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half' ></i> (15)</small></p>
+                                    <p class="card-text my-0"><small>&#8369; 17,014.99</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 py-2 product-card">
+                            <div class="card w-100">
+                                <img src="./assets/products/vetrazoo-palladian-gray.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title my-auto text-truncate"><small>Palladian Gray</small></h5>
+                                    <p class="card-text my-1 text-truncate"><small>Vetrazzo</small></p>
+                                    <p class="card-text my-auto"><small><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star'></i> (22)</small></p>
+                                    <p class="card-text my-0"><small>&#8369; 4,537.99</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 py-2 product-card">
+                            <div class="card w-100">
+                                <img src="./assets/products/amorim-identity-moonlight.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title my-auto text-truncate"><small>Identity Moonlight AA2N001</small></h5>
+                                    <p class="card-text my-1 text-truncate"><small>Amorim</small></p>
+                                    <p class="card-text my-auto"><small><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star'></i> (132)</small></p>
+                                    <p class="card-text my-0"><small>&#8369; 283.99</small></p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 py-2 product-card">
+                            <div class="card w-100">
+                                <img src="./assets/products/graf-terranova-wall-tank.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title my-auto text-truncate"><small>Terranova wall tank</small></h5>
+                                    <p class="card-text my-1 text-truncate"><small>Graf</small></p>
+                                    <p class="card-text my-auto"><small><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star'></i> (7)</small></p>
+                                    <p class="card-text my-0"><small>&#8369; 45,373.99</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 py-2 product-card">
+                            <div class="card w-100">
+                                <img src="./assets/products/good-ideas-rain-barrel-soaker-hose.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title my-auto text-truncate"><small>Rain Barrel Soaker Hose</small></h5>
+                                    <p class="card-text my-1 text-truncate"><small>Good Ideas</small></p>
+                                    <p class="card-text my-auto"><small><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half' ></i> (48)</small></p>
+                                    <p class="card-text my-0"><small>&#8369; 2,835.99</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 py-2 product-card">
+                            <div class="card w-100">
+                                <img src="./assets/products/rts-home-accents-rain-barrel.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title my-auto text-truncate"><small>35 Gallon Round Rain Barrel With Planter</small></h5>
+                                    <p class="card-text my-1 text-truncate"><small>RTS Home Accents</small></p>
+                                    <p class="card-text my-auto"><small><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star'></i> (37)</small></p>
+                                    <p class="card-text my-0"><small>&#8369; 8,507.99</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 py-2 product-card">
+                            <div class="card w-100">
+                                <img src="./assets/products/rainharvest-rainflo-1100ags.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title my-auto text-truncate"><small>RainFlo 1100AGS</small></h5>
+                                    <p class="card-text my-1 text-truncate"><small>RainHarvest Systems</small></p>
+                                    <p class="card-text my-auto"><small><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star'></i> (4)</small></p>
+                                    <p class="card-text my-0"><small>&#8369; 283,583.99</small></p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 py-2 product-card">
+                            <div class="card w-100">
+                                <img src="./assets/products/benjamin-moore-ecospec-primer.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title my-auto text-truncate"><small>Eco Spec Paint - Primer (372)</small></h5>
+                                    <p class="card-text my-1 text-truncate"><small>Benjamin Moore</small></p>
+                                    <p class="card-text my-auto"><small><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i> (155)</small></p>
+                                    <p class="card-text my-0"><small>&#8369; 3,970.99</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 py-2 product-card">
+                            <div class="card w-100">
+                                <img src="./assets/products/separett-villa.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title my-auto text-truncate"><small>Villa® Urine Diverting Toilet</small></h5>
+                                    <p class="card-text my-1 text-truncate"><small>Separett</small></p>
+                                    <p class="card-text my-auto"><small><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star'></i> (20)</small></p>
+                                    <p class="card-text my-0"><small>&#8369; 51,044.94</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 py-2 product-card">
+                            <div class="card w-100">
+                                <img src="./assets/products/boll-branch-flannel-heathered-plaid-sheet.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title my-auto text-truncate"><small>Flannel Heathered Plaid Sheet Set</small></h5>
+                                    <p class="card-text my-1 text-truncate"><small>Boll & Branch</small></p>
+                                    <p class="card-text my-auto"><small><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half' ></i> (39)</small></p>
+                                    <p class="card-text my-0"><small>&#8369; 12,477.99</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 py-2 product-card">
+                            <div class="card w-100">
+                                <img src="./assets/products/xeroflor-stormwater.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title my-auto text-truncate"><small>XeroFlor + Stormwater</small></h5>
+                                    <p class="card-text my-1 text-truncate"><small>XeroFlor</small></p>
+                                    <p class="card-text my-auto"><small><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i> (58)</small></p>
+                                    <p class="card-text my-0"><small>&#8369; 1,417.99</small></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            
 
         </main>
         
