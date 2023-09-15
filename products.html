@@ -200,6 +200,51 @@
         <!-- MAIN -->
         <main class="bg-body-tertiary">
 
+            <!-- BREADCRUMB & FILTER -->
+            <div class="container d-flex justify-content-between align-items-center">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb my-0">
+                        <li class="breadcrumb-item active" aria-current="page"><small>All Products</small></li>
+                    </ol>
+                </nav>
+
+                <button type="button" class="btn btn-outline-success filter" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-filter" aria-controls="offcanvas-filter">
+                    <div class="d-flex align-items-center justify-content-center gap-1">
+                        <span><small>Filter</small></span>
+                        <span><i class='bx bxs-filter-alt'></i></span>
+                    </div>
+                </button>
+
+
+                <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvas-filter" aria-labelledby="offcanvas-filterLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvas-filterLabel">Filters</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        Filters
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container d-flex justify-content-between my-1">
+                <div class="flex-fill"></div>
+                <div class="d-flex justify-content-center align-items-center gap-1">
+                    <small class="text-nowrap">Sort By</small> 
+                    <select class="form-select form-select-sm" aria-label="sort-by">
+                        <option value="1" selected>Relevancy</option>
+                        <option value="2">Reviews</option>
+                        <option value="3">Newest Items</option>
+                        <option value="4">Bestselling</option>
+                        <option value="5">Alphabetical: A-Z</option>
+                        <option value="6">Alphabetical: Z-A</option>
+                        <option value="7">Price: Low-High</option>
+                        <option value="8">Price: High-Low</option>
+                    </select>
+                </div>
+            </div>
+
             <div class="container bg-success bg-opacity-10 rounded-2 pt-4 pb-2">
 
                 <div class="row mb-3">
