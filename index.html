@@ -25,7 +25,7 @@
         <!-- MAIN NAVBAR -->
         <nav class="navbar navbar-expand-lg bg-white sticky-top">
             <div class="container">
-                <a class="navbar-brand order-xxl-1 order-xl-1 order-lg-1 order-md-1 order-sm-1 order-xs-1 order-1" href="#">
+                <a class="navbar-brand order-xxl-1 order-xl-1 order-lg-1 order-md-1 order-sm-1 order-xs-1 order-1" href="./index.html">
                     <div class="ecovibe-logo">
                         <?xml version="1.0" encoding="UTF-8" standalone="no"?>
                         <svg
@@ -100,15 +100,15 @@
                     </form>
                     <ul class="navbar-nav ms-auto me-auto px-1">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Explore EcoVibe
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end">
-                                <li><a class="dropdown-item" href="#">About Us</a></li>
-                                <li><a class="dropdown-item" href="#">Contact</a></li>
+                                <li><a class="dropdown-item" href="./about-us.html">About Us</a></li>
+                                <li><a class="dropdown-item" href="./contact-us.html">Contact</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Eco-Tips and Tricks</a></li>
                                 <li><a class="dropdown-item" href="#">EcoVibe Blog</a></li>
@@ -128,7 +128,7 @@
                                 <li><a class="dropdown-item" href="#">Water Conservation</a></li>
                                 <li><a class="dropdown-item" href="#">Eco-Friendly Comfort</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">All Products</a></li>
+                                <li><a class="dropdown-item" href="./products.html">All Products</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -144,12 +144,12 @@
                         <div class="dropdown-menu dropdown-menu-end">
                             <form class="px-3 py-3 login-form">
                                 <div class="mb-4">
-                                    <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com" required>
+                                    <label for="signin-email" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="signin-email" placeholder="email@example.com" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password" required>
+                                    <label for="signin-password" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="signin-password" placeholder="Password" required>
                                 </div>
                                 <div class="mb-3">
                                     <div class="form-check">
@@ -642,13 +642,13 @@
                                 <li class="list-group-item px-0 py-1"><a href="#">Return & Refund</a></li>
                                 <li class="list-group-item px-0 py-1"><a href="#">EcoVibe Guarantee</a></li>
                                 <li class="list-group-item px-0 py-1"><a href="#">Overseas Product</a></li>
-                                <li class="list-group-item px-0 py-1"><a href="#">Contact Us</a></li>
+                                <li class="list-group-item px-0 py-1"><a href="./contact-us.html">Contact Us</a></li>
                             </ul>
                         </div>
                         <div class="col">
                             <h6>ABOUT ECOVIBE</h6>
                             <ul class="list-group">
-                                <li class="list-group-item px-0 py-1"><a href="#">About Us</a></li>
+                                <li class="list-group-item px-0 py-1"><a href="./about-us.html">About Us</a></li>
                                 <li class="list-group-item px-0 py-1"><a href="#">EcoVibe Blog</a></li>
                                 <li class="list-group-item px-0 py-1"><a href="#">EcoVibe Careers</a></li>
                                 <li class="list-group-item px-0 py-1"><a href="#">EcoVibe Policies</a></li>
@@ -783,9 +783,9 @@
                             <h5>EcoVibe Depot: Your Source for Sustainable Living</h5>
                             <p>Stay Eco-Informed! Join our newsletter for the latest updates, eco-tips, exclusive offers, and more.</p>
                             <p><b>Be part of the EcoVibe Depot community today!</b></p>
-                            <form class="d-flex flex-fill px-auto pb-4" role="search">
-                                <input class="form-control me-2" type="search" placeholder="email@example.com" aria-label="Search">
-                                <button class="btn btn-success" type="submit">Subscribe</button>
+                            <form class="d-flex flex-fill px-auto pb-4">
+                                <input id="subscribe-email" class="form-control me-2" type="email" placeholder="email@example.com" aria-label="email-address" required>
+                                <button type="submit" method="post" class="btn btn-success">Subscribe</button>
                             </form>
                             <p><b>Phone:</b> <a href="#">(02) 8 765-4321</a>
                             <br><b>Email:</b> <a href="#">info@ecovibedepot.com</a></p>

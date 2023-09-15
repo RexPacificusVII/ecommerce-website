@@ -14,6 +14,10 @@ a {
     color: inherit;
 }
 
+main {
+    min-height: 80vh;
+}
+
 
 /* MAIN NAVBAR */
 
@@ -129,6 +133,17 @@ nav .bx {
 
 .welcome-card h1, .welcome-card p {
     text-shadow: 1px 1px 4px #ffffff;
+}
+
+.about-us-card {
+    border-radius: 0;
+    /* opacity: 0.75; */
+}
+
+.about-us-card h1, .about-us-card p {
+    color: #ffffff;
+    max-width: 75%;
+    text-shadow: 1px 1px 4px #75b798;
 }
 
 
