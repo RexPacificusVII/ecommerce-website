@@ -137,6 +137,7 @@ nav .bx {
 
 #featured-products .card:hover {
     cursor: pointer;
+    box-shadow: 1px 1px 5px #75b798;
 }
 
 #featured-products .bx {
