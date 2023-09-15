@@ -185,10 +185,6 @@ nav .bx {
     text-shadow: 1px 1px 4px #000000;
 }
 
-.contact-us-card p, .about-us-card p, .welcome-card p {
-    font-size: 1.1rem;
-}
-
 .get-in-touch a:hover {
     color: #198754;
 }
