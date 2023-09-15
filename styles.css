@@ -137,13 +137,42 @@ nav .bx {
 
 .about-us-card {
     border-radius: 0;
-    /* opacity: 0.75; */
 }
 
 .about-us-card h1, .about-us-card p {
     color: #ffffff;
     max-width: 75%;
-    text-shadow: 1px 1px 4px #75b798;
+    text-shadow: 1px 1px 4px #000000;
+}
+
+.contact-us-card {
+    border-radius: 0;
+}
+
+.contact-us-card h1, .contact-us-card p {
+    color: #ffffff;
+    max-width: 75%;
+    text-shadow: 1px 1px 4px #000000;
+}
+
+.contact-us-card p, .about-us-card p, .welcome-card p {
+    font-size: 1.1rem;
+}
+
+.get-in-touch a:hover {
+    color: #198754;
+}
+
+.form-select option:hover {
+    background-color: #198754;
+}
+
+.form-select option:active {
+    background-color: #198754;
+}
+
+#contactform-subject option:focus {
+    background-color: #198754;
 }
 
 
