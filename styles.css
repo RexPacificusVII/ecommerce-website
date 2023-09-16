@@ -193,9 +193,9 @@ nav .bx {
     /* FEATURED PRODUCTS */
 
 
-#featured-products .card:hover, .product-card .card:hover {
+#featured-products .card:hover, .product-card .card:hover, .category-card:hover {
     cursor: pointer;
-    box-shadow: 1px 1px 5px #75b798;
+    box-shadow: 0 .5rem 1rem #19875426;
 }
 
 #featured-products .bx, .product-card .bx{
@@ -209,25 +209,21 @@ nav .bx {
 #featured-product-1 {
     background-image: url(./assets/energy-bliss.svg);
     background-repeat: no-repeat;
-    border-radius: 6px;
 }
 
 #featured-product-2 {
     background-image: url(./assets/eco-chic-living.svg);
     background-repeat: no-repeat;
-    border-radius: 6px;
 }
 
 #featured-product-3 {
     background-image: url(./assets/water-serenity.svg);
     background-repeat: no-repeat;
-    border-radius: 6px;
 }
 
 #featured-product-4 {
     background-image: url(./assets/pure-comfort.svg);
     background-repeat: no-repeat;
-    border-radius: 6px;
 }
 
 .overlay {
@@ -246,6 +242,25 @@ nav .bx {
 
 .card:hover .overlay {
     display: flex;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-body .bx {
+    color: #198754;
+}
+
+.custom-category-card-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2px;
+    color: white;
+    width: 100%;
+    text-shadow: 1px 1px 4px #000000;
 }
 
 
