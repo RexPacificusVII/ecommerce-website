@@ -97,6 +97,7 @@ nav .bx {
     background-color: #198754;
     border-radius: 50%;
     border: none;
+    box-shadow: 0 .5rem 1rem #ffffff26;
 }
 
 .page-item a {
