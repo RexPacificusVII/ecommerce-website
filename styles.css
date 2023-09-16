@@ -268,6 +268,14 @@ nav .bx {
     /* REVIEWS, GUIDES, & BLOGS */
 
 
+.sentence-truncate {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .customer-review-items {
     transition: transform 1s ease-in-out;
 }
