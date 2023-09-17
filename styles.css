@@ -264,6 +264,10 @@ nav .bx {
     text-shadow: 1px 1px 4px #000000;
 }
 
+.breadcrumb-item:not(active) {
+    color: #198754;
+}
+
 
     /* REVIEWS, GUIDES, & BLOGS */
 
